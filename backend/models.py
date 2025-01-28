@@ -12,5 +12,5 @@ class Contact(db.Model):
             "id": self.id,
             "firstName": self.first_name,
             "lastName": self.last_name,
-            "email": self.email
+            "email": self.email,
         }
